@@ -11,7 +11,6 @@ Projeto modelo em Java Spring. API para realizar CRUD em um quadro de usuários.
 ### Create Employee
 ```
 {
-"id": 1,
 "name": "joao",
 "birth": "2022-02-02",
 "addres": "Rua ficticia",
@@ -26,10 +25,18 @@ Projeto modelo em Java Spring. API para realizar CRUD em um quadro de usuários.
 
 ### Create Customer
 
-``
+```
 {
+"name": "joao",
+"birth": "2022-02-02",
+"addres": "Rua ficticia",
+"phone": "78 9239283",
+"email": "kkkk@gmail.com",
+"cpf": "999",
+"dateJoined": "2020-02-01",
+"lastPurchase": "2022-01-01"
 }
-``
+```
 
 ## Tarefas futuras
 - [x] Incluir CORS
