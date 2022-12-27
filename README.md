@@ -5,12 +5,11 @@ Projeto modelo em Java Spring. API para realizar CRUD em um quadro de usuários.
 <div align="center">
 <img src="https://raw.githubusercontent.com/wlfoj/images/main/crudUsers/diagram_class1.svg" width="440" height="440"/>
 </div>
-![alt text]()
 
 ## Modelos de requisição
 
 ### Create Employee
-``
+```
 {
 "id": 1,
 "name": "joao",
@@ -23,7 +22,7 @@ Projeto modelo em Java Spring. API para realizar CRUD em um quadro de usuários.
 "salary": 999.0,
 "type": "E"
 }
-``
+```
 
 ### Create Customer
 
