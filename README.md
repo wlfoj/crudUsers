@@ -5,6 +5,7 @@ Projeto modelo em Java Spring. API para realizar CRUD em um quadro de usuários.
 <div align="center">
 <img src="https://raw.githubusercontent.com/wlfoj/images/main/crudUsers/diagram_class1.svg?token=GHSAT0AAAAAAB4G5M7TLAW5OXZLNCWU7VHWY5KDJLA" width="440" height="440"/>
 </div>
+![alt text](https://raw.githubusercontent.com/wlfoj/images/main/crudUsers/diagram_class1.svg)
 
 ## Modelos de requisição
 
