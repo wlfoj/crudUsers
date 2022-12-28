@@ -9,28 +9,28 @@ import java.time.LocalDate;
 //@MappedSuperclass
 @Table(name="usuario")
 @Inheritance(strategy = InheritanceType.JOINED)
-public class User { //implements Serializable
+public abstract class User { //implements Serializable
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    protected Long id;
 
     @Column
-    private String name;
+    protected String name;
 
     @Column
-    private LocalDate birth;
+    protected LocalDate birth;
 
     @Column
-    private String addres;
+    protected String addres;
 
     @Column(unique = true)
-    private String phone;
+    protected String phone;
 
     @Column(unique = true)
-    private String email;
+    protected String email;
 
     @Column(unique = true)
-    private String cpf;
+    protected String cpf;
 
 
     public LocalDate getBirth() {
